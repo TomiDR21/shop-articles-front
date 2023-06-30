@@ -1,0 +1,9 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.app-container{
+    display: flex;
+    flex-direction: row;
+}

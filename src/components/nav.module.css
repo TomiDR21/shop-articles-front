@@ -1,0 +1,73 @@
+nav{
+  letter-spacing: 2px;
+}
+
+.navContainer {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+button {
+}
+
+.btns {
+  flex: 0 0 calc(17% - 15px); 
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(245, 169, 169);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+
+.pinturas,
+.carpinteria,
+.alCarpintero {
+  margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 169, 169);
+    background-color: transparent;
+  }
+
+
+.subPinturasContainer,
+.subCarpinteriaContainer,
+.subalCarpinteroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.subTags {
+  letter-spacing: .5px;
+  font-size: 12px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.subTags:hover,
+.btns:hover {
+color: rgb(114, 142, 161);
+}
+
+
+
+
