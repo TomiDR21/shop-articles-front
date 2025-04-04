@@ -44,7 +44,7 @@ function App() {
   const subTags = ["ETERNA", "EQARTE", "ALBA", "AQUARELL"];
   const carpinteriaSubTags = ["MADERA", "MDF"];
   const alCarpinteroSubTags = ["MADERA AC", "MDF AC"];
-  const [tableTag, setTableTag] = useState('TODOS');
+  const [tableTag, setTableTag] = useState('ALL');
 
 
 
